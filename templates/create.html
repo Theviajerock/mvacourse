@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="post">
+    <label for="title">Title</label>
+    <input type="text" name="title"><br>
+    
+    <label for="question">Question</label>
+    <input type="text" name="question"><br>
+    
+    <label for="answer">Answer</label>
+    <input type="text" name="answer">
+
+    <input type="submit" value="Send">
+</form>
+
+{% endblock %}
